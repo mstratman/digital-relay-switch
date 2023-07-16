@@ -2,6 +2,6 @@
 
 DPDT relay switcher
 
-[Get one here](https://shop.mas-effects.com/products/relay-switch-with-digital-controller)
+[Get a kit here](https://shop.mas-effects.com/products/relay-switch-with-digital-controller)
 
-More info soon. In the meantime the code and schematic are here.
+[Documentation is available here](https://mas-effects.com/digital-relay-switch.pdf)
