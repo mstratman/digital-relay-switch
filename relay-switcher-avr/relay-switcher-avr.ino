@@ -9,8 +9,8 @@
 // BASIC BEHAVIOR SETTINGS:
 
 // which uC
-#define ATTINY85
-//#define ATTINY13
+//#define ATTINY85
+#define ATTINY13
 
 // By default we assume normally open unless this is defined
 //#define NORMALLY_CLOSED
@@ -140,7 +140,7 @@ void setup() {
   if (blink_n_times > 0) {
     // Blink LED. Ordinarily this should be done asynchronously,
     // but on initial boot it probably doesn't matter
-    for (int i = 1; i < blink_n_times; i++) {
+    for (int i = 0; i < blink_n_times; i++) {
       PORTB |= (1 << PIN_LED1); //high
       PORTB |= (1 << PIN_LED2); //high
       _delay_ms(200);
